@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto carrinho</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="store.js" async></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <body>
+    <header class="main-header">
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        <section class="container content-section">
+            <h2 class="section-header">CARRINHO</h2>
+            <div class="cart-items"></div>
+            <div class="cart-total">
+                <span class="cart-total-title">PREÇO TOTAL</span>
+                <span class="cart-total-price">R$ 0,00</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">COMPRAR</button>
+            <i class='bx bx-x' id="close-cart"></i>
+        </section>
+    </header>
+    <section class="container content-section">
+        <div class="title-products">PRODUTOS</div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 1</span>
+                <img class="shop-item-image" src="Images/Album 1.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 120,99</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 2</span>
+                <img class="shop-item-image" src="Images/Album 2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 149,99</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 3</span>
+                <img class="shop-item-image" src="Images/Album 3.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 80,00</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 4</span>
+                <img class="shop-item-image" src="Images/Album 4.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 75,50</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 5</span>
+                <img class="shop-item-image" src="Images/Shirt.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 200,00</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ROUPA 6</span>
+                <img class="shop-item-image" src="Images/Cofee.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">R$ 170,00</span>
+                    <i class="bx bx-shopping-bag btn btn-primary shop-item-button" type="button"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
