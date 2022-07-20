@@ -105,6 +105,7 @@ header {
 }
 
 .btn-purchase {
+    align-items: center;
     font-size: 1rem;
     display: flex;
     margin: 1, 5rem auto 0 auto;
