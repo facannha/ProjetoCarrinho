@@ -1,8 +1,9 @@
+
 <?php
     $servidor="localhost";
     $usuario="root";
     $senha="";
-    $database="login";
+    $database="formulariolog";
 
     $conexao= mysqli_connect ($servidor, $usuario, $senha, $database);
 
