@@ -24,5 +24,5 @@ $query= mysqli_query($conexao, $sql);
 
 <script>
     alert('Sua compra foi efetuada com sucesso')
-    window.location.href="store.html"
-</script>   
+    window.location.href="painel.php"
+</script>
